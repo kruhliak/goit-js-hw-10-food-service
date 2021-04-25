@@ -8,6 +8,10 @@ const listRef = document.querySelector('.js-menu');
 const menuItemsMarkup = createMenuItem(menuItems);
 listRef.insertAdjacentHTML('beforeend', menuItemsMarkup);
 
+// function createMenuItem(items) {
+//   return items.map(menuTpl).join('');
+// }
+
 function createMenuItem(items) {
-  return items.map(menuTpl).join('');
+  return menuTpl(menuItems);
 }
