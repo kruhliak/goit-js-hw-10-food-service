@@ -1,1 +1,2 @@
-import './sass/main.scss';
+import './js/toolbar';
+import './js/menu';
